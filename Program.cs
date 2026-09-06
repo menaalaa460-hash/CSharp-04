@@ -136,13 +136,12 @@
 
 #region Q11
 //Using the PrintBookInfo method from the question above, call it by naming the 
-//parameters, passing pages before title.
-//static void PrintAllTitles(params string[] titles)
+//parameters, passing pages before title
+//static void PrintBookInfo(string title, int pages = 300)
 //{
-//    for (int i = 0; i < titles.Length; i++)
-//    {
-//        Console.WriteLine(titles[i]);
-//    }
+//    Console.WriteLine($"Title: {title}, Pages: {pages}");
 //}
-//PrintAllTitles("Clean Code", "C# in Depth", "CLR via C#");
+//PrintBookInfo(pages: 500, title: "Clean Code");
 #endregion
+
+#region Q 12
