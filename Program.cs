@@ -145,3 +145,14 @@
 #endregion
 
 #region Q 12
+//Write a method PrintAllTitles(params string[] titles) that prints each title on its own line. 
+//Call it with three book titles. 
+//static void PrintAllTitles(params string[] titles)
+//{
+//    for (int i = 0; i < titles.Length; i++)
+//    {
+//        Console.WriteLine(titles[i]);
+//    }
+//}
+//PrintAllTitles("Clean Code", "Design Patterns", "C# in Depth");
+#endregion
