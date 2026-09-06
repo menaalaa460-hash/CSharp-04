@@ -97,6 +97,7 @@
 #region Q9
 //Write a method bool TryGetPrice(string title, out double price) that returns true and sets 
 //price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0. Call it 
+
 //static bool TryGetPrice(string title, out double price)
 //{
 //    if (title == "Clean Code")
@@ -117,4 +118,18 @@
 //{
 //    Console.WriteLine($"Price: {bookPrice}"); 
 //}
+#endregion
+
+#region Q 10
+//Write a method PrintBookInfo(string title, int pages = 300) where pages is optional. Call 
+//it once with only a title, and once passing both a title and pages.
+// Definition:
+//static void PrintBookInfo(string title, int pages = 300)
+//{
+//    Console.WriteLine($"Title: {title}, Pages: {pages}");
+//}
+//PrintBookInfo("C# Basics"); 
+//PrintBookInfo("Clean Code", 450); 
+
+//PrintBookInfo(pages: 500, title: "Design Patterns");
 #endregion
