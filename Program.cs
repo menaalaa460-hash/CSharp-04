@@ -41,7 +41,7 @@
 //{
 //    Console.WriteLine("Book title: " + title);
 //}
-#endregion
+#endregion Q5
 
 #region
 //Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable 
@@ -52,5 +52,30 @@
 //}
 //int pages = 400;
 //AddBonusPages(pages);
+//Console.WriteLine(pages); 
+#endregion
+
+#region Q6
+//Write a method ApplyDiscount(double[] prices) that subtracts 5 from prices[0]. Call it 
+//with double[] prices = { 25.5, 40.0 }; and print prices[0] afterward. What do you expect to 
+//see, and why? 
+
+//static void ApplyDiscount(double[] prices)
+//{
+//    prices[0] -= 5; 
+//}
+//double[] prices = { 25.5, 40.0 };
+//ApplyDiscount(prices);
+//Console.WriteLine(prices[0]); 
+
+#region Q7
+//Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref. 
+//Call it and print pages afterward. How is the result different from question 5?
+//static void AddBonusPagesByRef(ref int pages)
+//{
+//    pages += 50;
+//}
+//int pages = 400;
+//AddBonusPagesByRef(ref pages);
 //Console.WriteLine(pages); 
 #endregion
