@@ -93,3 +93,28 @@
 //ReplaceArray(ref prices);
 //Console.WriteLine(prices.Length);
 #endregion
+
+#region Q9
+//Write a method bool TryGetPrice(string title, out double price) that returns true and sets 
+//price to 25.5 if title is "Clean Code", otherwise returns false and sets price to 0. Call it 
+//static bool TryGetPrice(string title, out double price)
+//{
+//    if (title == "Clean Code")
+//    {
+//        price = 25.5;
+//        return true;
+//    }
+//    else
+//    {
+//        price = 0;
+//        return false;
+//    }
+//}
+//double bookPrice;
+//bool isFound = TryGetPrice("Clean Code", out bookPrice);
+
+//if (isFound)
+//{
+//    Console.WriteLine($"Price: {bookPrice}"); 
+//}
+#endregion
