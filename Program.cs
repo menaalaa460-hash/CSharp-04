@@ -41,7 +41,7 @@
 //{
 //    Console.WriteLine("Book title: " + title);
 //}
-#endregion 
+#endregion
 
 #region Q5
 //Write a method AddBonusPages(int pages) that adds 50 to pages. Call it with a variable 
@@ -67,6 +67,7 @@
 //double[] prices = { 25.5, 40.0 };
 //ApplyDiscount(prices);
 //Console.WriteLine(prices[0]); 
+#endregion
 
 #region Q7
 //Rewrite the method from question 5 as AddBonusPagesByRef(ref int pages) using ref. 
