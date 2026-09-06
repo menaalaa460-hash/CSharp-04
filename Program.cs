@@ -80,3 +80,16 @@
 //AddBonusPagesByRef(ref pages);
 //Console.WriteLine(pages); 
 #endregion
+
+#region Q8 
+//Write a method ReplaceArray(ref double[] prices) that replaces prices entirely with a 
+//new array { 10.0, 12.5, 15.0 }.Call it with your prices array and print prices.Length 
+//afterward.
+//static void ReplaceArray(ref double[] prices)
+//{
+//    prices = new double[] { 10.0, 12.5, 15.0 };
+//}
+//double[] prices = { 25.5, 40.0 };
+//ReplaceArray(ref prices);
+//Console.WriteLine(prices.Length);
+#endregion
